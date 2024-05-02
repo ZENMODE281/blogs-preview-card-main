@@ -45,10 +45,10 @@
             box-shadow: 20px 20px 10px rgba(0, 0, -4, 10);
 		}
 		
-		
+		/* Smaller screens */
 		@media only screen and (max-width: 768px) {
 			.main{
 				width: 42%; 
-				margin: 5px auto; /* Reduce the margin on mobile */
+				margin: 5px auto; 
 			}
 		}
