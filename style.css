@@ -1,0 +1,54 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+   
+		body {
+			margin: 0;
+			height: 100vh;
+			width: 100vw;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+            background-color:  hsl(47, 88%, 63%);
+		}
+		
+        .image{
+            border-radius: 20px;
+        }
+        .avatar{
+            max-width: 40px;
+        }
+        .avatar3{
+            display: flex;
+            flex-direction: row;
+        }
+        .desc{
+            position: absolute;
+            left: 650px;
+            top: 555px;
+        }
+        .button{
+            background-color: hsl(47, 88%, 63%);
+            border-radius: 5px;
+            padding: 5px 10px;
+            border-style: none;
+            font-size: 15.5px;
+        }
+		
+		.main {
+			background-color: hsl(0, 0%, 100%);
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			width: 22%; 
+			margin: 20px auto;
+            box-shadow: 20px 20px 10px rgba(0, 0, -4, 10);
+		}
+		
+		
+		@media only screen and (max-width: 768px) {
+			.main{
+				width: 42%; 
+				margin: 5px auto; /* Reduce the margin on mobile */
+			}
+		}
